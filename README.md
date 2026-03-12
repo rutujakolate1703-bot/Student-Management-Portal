@@ -93,7 +93,7 @@ student_management_portal
 ### 1️⃣ Clone the Repository
 
 ```
-git clone https://github.com/your-username/student-management-portal.git
+git clone https://github.com/rutujakolate1703-bot/student-management-portal.git
 ```
 
 Navigate into the folder:
