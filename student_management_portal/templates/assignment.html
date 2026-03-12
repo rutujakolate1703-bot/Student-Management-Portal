@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignments</title>
+</head>
+
+<body>
+
+<h2>Assignments</h2>
+
+<table border="1">
+
+<tr>
+<th>Title</th>
+<th>Description</th>
+<th>Due Date</th>
+</tr>
+
+{% for row in data %}
+
+<tr>
+<td>{{row["title"]}}</td>
+<td>{{row["description"]}}</td>
+<td>{{row["due_date"]}}</td>
+</tr>
+
+{% endfor %}
+
+</table>
+
+<br>
+<a href="/">Back</a>
+
+</body>
+</html>

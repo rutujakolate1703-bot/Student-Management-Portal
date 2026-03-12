@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Announcements</title>
+</head>
+
+<body>
+
+<h2>Announcements</h2>
+
+<table border="1">
+
+<tr>
+<th>Title</th>
+<th>Message</th>
+</tr>
+
+{% for row in data %}
+
+<tr>
+<td>{{row["title"]}}</td>
+<td>{{row["message"]}}</td>
+</tr>
+
+{% endfor %}
+
+</table>
+
+<br>
+<a href="/">Back</a>
+
+</body>
+</html>

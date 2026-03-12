@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Events</title>
+</head>
+
+<body>
+
+<h2>Events</h2>
+
+<table border="1">
+
+<tr>
+<th>Title</th>
+<th>Date</th>
+<th>Description</th>
+</tr>
+
+{% for row in data %}
+
+<tr>
+<td>{{row["title"]}}</td>
+<td>{{row["date"]}}</td>
+<td>{{row["description"]}}</td>
+</tr>
+
+{% endfor %}
+
+</table>
+
+<br>
+<a href="/">Back</a>
+
+</body>
+</html>
